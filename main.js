@@ -42,7 +42,7 @@ twitter.addEventListener("click", function () {
 })
 
 
-
-function change(x) {
+let x = document.querySelector(".icon")
+function change() {
     x.classList.toggle("change");
 }
